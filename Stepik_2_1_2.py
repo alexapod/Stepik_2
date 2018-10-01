@@ -32,4 +32,3 @@ for obj in objects:
 		newarr.append(obj)
 		ans = ans + 1
 print(ans)
-print(newarr)
