@@ -24,11 +24,9 @@ objects = [1, 2, 1, 2, 3] # будем считать, что одинаковы
 """
 
 ans = 0
-newarr = []
+arr = []
 for obj in objects:
-	if (obj in newarr):
-		ans = ans
-	else:
-		newarr.append(obj)
+	if (obj not in arr):
+		arr.append(obj)
 		ans = ans + 1
 print(ans)
