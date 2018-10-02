@@ -17,3 +17,4 @@ def closest_mod_5(x):
     else:
         x += 1
         return closest_mod_5(x)
+print()
